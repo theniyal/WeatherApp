@@ -1,0 +1,66 @@
+.box {
+    background-image: url("2.jpg");
+    background-attachment: fixed;
+    border: 1px solid black;
+}
+
+.title-div {
+    width: 30%;
+    margin: 1%;
+    margin-left: 10%;
+    display: inline-block;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-bottom: 20%;
+    background: transparent;
+ }
+
+.form-div{  
+    width: 20%;
+    padding-top: 15%;
+    margin: 1%;
+    padding-bottom: 20%;
+    display: inline-block;
+    background: transparent;
+}
+
+.weather-div {
+    padding-top: 15%;
+    background: transparent;
+    padding-bottom: 20%;
+    width: 20%;
+    margin: 1%;
+    display: inline-block;
+    position: absolute;
+}
+
+input {
+    padding: 9px;
+    margin: 5px;
+    border-color: lightblue;
+    font-family: verdana;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background: transparent
+}
+
+button {
+    border: 1px solid grey;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 6px;
+    width: 87%;
+    margin: 5px;
+    font-weight: 500;
+    background: transparent;
+
+}
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
